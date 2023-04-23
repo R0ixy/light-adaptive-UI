@@ -3143,6 +3143,11 @@ expo-asset@~8.9.1:
     path-browserify "^1.0.0"
     url-parse "^1.5.9"
 
+expo-brightness@~11.2.1:
+  version "11.2.1"
+  resolved "https://registry.yarnpkg.com/expo-brightness/-/expo-brightness-11.2.1.tgz#646ab1e5e4a9bc2f241910cf33855f13b28d50e1"
+  integrity sha512-Bo1vlcfG/HoNU+OK1c1EVgLc97sQaWfXfZwoRi98DNg0uZiibCU3CL7CDAHl1WP64wWILvK071fexsqxoiE1iw==
+
 expo-constants@~14.2.0, expo-constants@~14.2.1:
   version "14.2.1"
   resolved "https://registry.npmjs.org/expo-constants/-/expo-constants-14.2.1.tgz"
@@ -6539,10 +6544,10 @@ type-is@~1.6.18:
     media-typer "0.3.0"
     mime-types "~2.1.24"
 
-typescript@^5.0.4:
-  version "5.0.4"
-  resolved "https://registry.npmjs.org/typescript/-/typescript-5.0.4.tgz"
-  integrity sha512-cW9T5W9xY37cc+jfEnaUvX91foxtHkza3Nw3wkoF4sSlKn0MONdkdEndig/qPBWXNkmplh3NzayQzCiHM4/hqw==
+typescript@^4.9.4:
+  version "4.9.5"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.9.5.tgz#095979f9bcc0d09da324d58d03ce8f8374cbe65a"
+  integrity sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==
 
 ua-parser-js@^0.7.30:
   version "0.7.35"

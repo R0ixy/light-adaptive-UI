@@ -21,14 +21,14 @@ export const Image = styled(Animated.View)`
 
 export const Title = styled(Animated.View)`
   height: 25px;
-  width: 280px;
+  min-width: 70%;
   border-radius: 10px;
 `;
 
 
 export const Description = styled(Animated.View)`
   height: 60px;
-  width: 280px;
+  min-width: 70%;
   border-radius: 10px;
 `;
 
