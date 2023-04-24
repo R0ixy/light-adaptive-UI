@@ -26,7 +26,7 @@ const AnimatedList = () => {
 
   const setValue = (e) => {
     const value =  isIOS ? e.brightness : e.illuminance;
-    colorChange.value = withTiming(value, { duration: isIOS ? 300 : 1000 });
+    colorChange.value = withTiming(value);
     setDisplayValue(value);
   };
 
