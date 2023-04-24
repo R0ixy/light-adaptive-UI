@@ -33,6 +33,14 @@ const AnimatedList = () => {
   useEffect(() => {
     const subscription = isIOS ? Brightness.addBrightnessListener(setValue) : LightSensor.addListener(setValue);
 
+    // getting initial brightness value
+    if (isIOS) {
+      Brightness.getBrightnessAsync().then((e => {
+        colorChange.value = e;
+        setDisplayValue(e);
+      }));
+    }
+
     return () => {
       subscription && subscription.remove();
     };
