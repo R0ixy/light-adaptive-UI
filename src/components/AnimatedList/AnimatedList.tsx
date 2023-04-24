@@ -40,13 +40,16 @@ const AnimatedList = () => {
 
   return (
     <>
-      <Text style={{ fontSize: 20, margin: 20 }}>
+      <Text style={{ fontSize: 20, marginBottom: 20, marginTop: 40 }}>
         {isIOS ? displayValue * 100 : displayValue} {isIOS ? '%' : 'lux'}
       </Text>
-      <UserTemplate animatedStyle={animatedStyle} />
-      <UserTemplate animatedStyle={animatedStyle} />
-      <UserTemplate animatedStyle={animatedStyle} />
-      <UserTemplate animatedStyle={animatedStyle} />
+      <ScrollView contentContainerStyle={{ alignItems: 'center', width: '100%' }}>
+        <UserTemplate animatedStyle={animatedStyle} />
+        <UserTemplate animatedStyle={animatedStyle} />
+        <UserTemplate animatedStyle={animatedStyle} />
+        <UserTemplate animatedStyle={animatedStyle} />
+        <UserTemplate animatedStyle={animatedStyle} />
+      </ScrollView>
     </>
   );
 };

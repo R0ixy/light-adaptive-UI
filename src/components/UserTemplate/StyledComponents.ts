@@ -2,7 +2,8 @@ import styled from 'styled-components/native';
 import Animated from 'react-native-reanimated';
 
 export const Wrapper = styled.View`
-  width: 95%;
+  margin-horizontal: 10px;
+  padding-horizontal: 10px;
   height: 120px;
   background-color: #f7f7f7;
   border-radius: 10px;
